@@ -14,7 +14,6 @@ load_dotenv()
 # Default configs (can be overridden by .env)
 DOC_URL = os.getenv(
     "DOC_URL",
-    "DOC_URL2",
     "https://huggingface-transformers.readthedocs.io/en/latest/"
 )
 MODEL_NAME = os.getenv(
